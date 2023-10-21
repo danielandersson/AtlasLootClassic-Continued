@@ -1,0 +1,26 @@
+name: CI-PR
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install and run Luacheck
+        uses: nebularg/actions-luacheck@v1
+        with:
+          args: "--no-color -q"
+          annotate: warning
+
+      - name: Create Package
+        uses: BigWigsMods/packager@v2
+        with:
+          args: -d -z
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: AtlasLootClassic-Continued-PR#${{ github.event.number }}-${{ github.sha }}
+          path: .release/
