@@ -666,20 +666,20 @@ local EventFrame = CreateFrame("FRAME")
 EventFrame:RegisterEvent("COMPANION_LEARNED")
 EventFrame:RegisterEvent("COMPANION_UNLEARNED")
 EventFrame:RegisterEvent("COMPANION_UPDATE")
-local function UpdateKnownCompanions(typ)
-    if GetNumCompanions(typ) <= 0 then return end
-    if type == "MOUNT" then
-        local mountIDs = C_MountJournal.GetMountIDs() -- List of all available MountIDs
-        for i = 1, #mountIDs do
-            local _, _, _, _, _, _, _, _, _, _, isCollected, mountID = C_MountJournal.GetMountInfoByID(mountIDs[i])
+local function UpdateKnownCompanions(type)
+    if GetNumCompanions(type) <= 0 then return end
+	if type == "MOUNT" then
+		local mountIDs = C_MountJournal.GetMountIDs() -- List of all available MountIDs
+		for i = 1, #mountIDs do
+			local _, _, _, _, _, _, _, _, _, _, isCollected, mountID = C_MountJournal.GetMountInfoByID(mountIDs[i])
             COLLECTED_COMPANIONS[mountID] = isCollected
         end
     else
         for i = 1, GetNumCompanions(type) do
             local creatureID = GetCompanionInfo(type, i) -- creatureID, creatureName, spellID, icon, active
-            COLLECTED_COMPANIONS[creatureID] = true
-        end
-    end
+			COLLECTED_COMPANIONS[creatureID] = true
+		end
+	end
 end
 local function EventFrame_OnEvent(frame, event, arg1)
     if event == "COMPANION_UNLEARNED" then
