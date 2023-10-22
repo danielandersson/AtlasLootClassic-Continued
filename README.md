@@ -1,8 +1,6 @@
-# AtlasLootClassic
+# AtlasLootClassic-Continued
 
-[![Build Status](https://github.com/Hoizame/AtlasLootClassic/workflows/CI/badge.svg)](https://github.com/Hoizame/AtlasLootClassic/actions?workflow=CI)[![AtlasLootClassic Discord](https://img.shields.io/badge/discord-atlaslootclassic-7289DA)](https://discord.gg/vMUwzPc)
-
-AtlasLootClassic is an UI mod allowing for loot tables of bosses to be browsed whenever needed within the game.
+AtlasLootClassic-Continued is an UI mod allowing for loot tables of bosses to be browsed whenever needed within the game.
 
 ## Download
 
@@ -42,11 +40,3 @@ AtlasLootClassic is an UI mod allowing for loot tables of bosses to be browsed w
 This currently only supports items and notes
 
 `"i:16703:First item note,i:16704,i:16698:Second item note,i:16699,i:11287"`
-
-## Maps
-
-[Atlas Classic WoW](https://www.curseforge.com/wow/addons/atlas-classicwow)
-
-[Atlas Burning Crusade](https://www.curseforge.com/wow/addons/atlas-burningcrusade)
-
-[Atlas Wrath of the Lich King](https://www.curseforge.com/wow/addons/atlas-wrathofthelichking)
