@@ -670,7 +670,6 @@ local function UpdateKnownCompanions(typ)
     if GetNumCompanions(typ) <= 0 then return end
     if type == "MOUNT" then
         local mountIDs = C_MountJournal.GetMountIDs() -- List of all available MountIDs
-
         for i = 1, #mountIDs do
             local _, _, _, _, _, _, _, _, _, _, isCollected, mountID = C_MountJournal.GetMountInfoByID(mountIDs[i])
             COLLECTED_COMPANIONS[mountID] = isCollected
