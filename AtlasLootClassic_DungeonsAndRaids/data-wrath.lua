@@ -2899,11 +2899,13 @@ data["VioletHold"] = {
             },
             [BETA_DIFF] = {
                 { 1, 45624 }, -- Emblem of Conquest
+
                 { 3, 45935 }, -- Ironbark Faceguard
                 { 4, 45940 }, -- Tunic of the Limber Stalker
                 { 5, 45289 }, -- Lifespark Visage
                 { 6, 45285 }, -- Might of the Leviathon
 	            { 7, 45284 }, -- Kinetic Ripper
+
                 { 9, 39275 }, -- Contagion Gloves
                 { 10, 39281 }, -- Infection Repulser
                 { 11, 39293 }, -- Blackened Legplates of Feugen
@@ -2939,11 +2941,13 @@ data["VioletHold"] = {
             },
             [BETA_DIFF] = {
                 { 1, 45624 }, -- Emblem of Conquest
+
                 { 3, 45935 }, -- Ironbark Faceguard
                 { 4, 45940 }, -- Tunic of the Limber Stalker
                 { 5, 45289 }, -- Lifespark Visage
                 { 6, 45285 }, -- Might of the Leviathon
 	            { 7, 45284 }, -- Kinetic Ripper
+
                 { 9, 39276 }, -- The Skull of Ruin
                 { 10, 39270 }, -- Hatestrike
                 { 11, 39282 }, -- Bone-Linked Amulet
@@ -2979,11 +2983,13 @@ data["VioletHold"] = {
             },
             [BETA_DIFF] = {
                 { 1, 45624 }, -- Emblem of Conquest
+
                 { 3, 45935 }, -- Ironbark Faceguard
                 { 4, 45940 }, -- Tunic of the Limber Stalker
                 { 5, 45289 }, -- Lifespark Visage
                 { 6, 45285 }, -- Might of the Leviathon
 	            { 7, 45284 }, -- Kinetic Ripper
+
                 { 9, 39272 }, -- Drape of Surgery
                 { 10, 39285 }, -- Handgrips of Turmoil
                 { 11, 39278 }, -- Bands of Anxiety
@@ -3021,11 +3027,13 @@ data["VioletHold"] = {
             },
             [BETA_DIFF] = {
                 { 1, 45624 }, -- Emblem of Conquest
+
                 { 3, 45935 }, -- Ironbark Faceguard
                 { 4, 45940 }, -- Tunic of the Limber Stalker
                 { 5, 45289 }, -- Lifespark Visage
                 { 6, 45285 }, -- Might of the Leviathon
 	            { 7, 45284 }, -- Kinetic Ripper
+
                 { 9, 39273 }, -- Sullen Cloth Boots
                 { 10, 39279 }, -- Blistered Belt of Decay
                 { 11, 39291 }, -- Torment of the Banished
@@ -3062,11 +3070,13 @@ data["VioletHold"] = {
             },
             [BETA_DIFF] = {
                 { 1, 45624 }, -- Emblem of Conquest
+
                 { 3, 45935 }, -- Ironbark Faceguard
                 { 4, 45940 }, -- Tunic of the Limber Stalker
                 { 5, 45289 }, -- Lifespark Visage
                 { 6, 45285 }, -- Might of the Leviathon
 	            { 7, 45284 }, -- Kinetic Ripper
+
                 { 9, 39280 }, -- Leggings of Innumerable Barbs
                 { 10, 39292 }, -- Repelling Charge
                 { 11, 39274 }, -- Retcher's Shoulderpads
@@ -3102,11 +3112,13 @@ data["VioletHold"] = {
             },
             [BETA_DIFF] = {
                 { 1, 45624 }, -- Emblem of Conquest
+
                 { 3, 45935 }, -- Ironbark Faceguard
                 { 4, 45940 }, -- Tunic of the Limber Stalker
                 { 5, 45289 }, -- Lifespark Visage
                 { 6, 45285 }, -- Might of the Leviathon
 	            { 7, 45284 }, -- Kinetic Ripper
+
                 { 9, 39271 }, -- Blade of Dormant Memories
                 { 10, 39307 }, -- Iron Rings of Endurance
                 { 11, 39277 }, -- Sealing Ring of Grobbulus
