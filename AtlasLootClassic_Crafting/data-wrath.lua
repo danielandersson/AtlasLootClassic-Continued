@@ -427,9 +427,6 @@ data["EnchantingWrath"] = {
 				{ 16, 44483 },	-- Enchant Cloak - Superior Frost Resistance
 				{ 17, 44494 },	-- Enchant Cloak - Superior Nature Resistance
 				{ 18, 44590 },	-- Enchant Cloak - Superior Shadow Resistance
-
-
-
 			}
 		},
 		{
